@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[本気は出さないけどがんばる(・ω・｀)]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://ravencoding.github.io/"/>
+  <updated>2014-12-28T16:45:56.011Z</updated>
+  <id>http://ravencoding.github.io/</id>
+  
+  <author>
+    <name><![CDATA[ravencoding]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[ブログフレームワークHEXOの使い方]]></title>
+    <link href="http://ravencoding.github.io/2014/12/29/%E3%83%96%E3%83%AD%E3%82%B0%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFHEXO%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/"/>
+    <id>http://ravencoding.github.io/2014/12/29/ブログフレームワークHEXOの使い方/</id>
+    <published>2014-12-28T16:12:37.000Z</published>
+    <updated>2014-12-28T16:31:13.000Z</updated>
+    <content type="html"><![CDATA[<p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
+<ul>
+<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
+</ul>
+<p>ルートディレクトリでgitリポジトリを作り、gitignoreにthemeを追加しておく.<br>別途themeフォルダで、Hexoのテーマのリポジトリをgit cloneする.<br><img src="img.jpg" alt="hoge"><br>テーマを切り替えたいときは、プロジェクトディレクトリ直下にある_config.ymlのthemeを希望のテーマ名に書き換える.<br>ちょっとハマったんですが、<br><strong>テーマを切り替えるときはhexo cleanを実行すること！</strong><br>でないとスタイルが崩れまくります.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
+<ul>
+<li><a href="http://liginc.co.jp/web/programming/server/10459]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[IX2015が使えたプロバイダ]]></title>
+    <link href="http://ravencoding.github.io/2014/12/28/IX2015%E3%81%8C%E4%BD%BF%E3%81%88%E3%81%9F%E3%83%97%E3%83%AD%E3%83%90%E3%82%A4%E3%83%80/"/>
+    <id>http://ravencoding.github.io/2014/12/28/IX2015が使えたプロバイダ/</id>
+    <published>2014-12-28T11:55:59.000Z</published>
+    <updated>2014-12-28T12:47:18.000Z</updated>
+    <content type="html"><![CDATA[<p>実際に動作確認がとれたのは次の通り. 他は試せていないのであしからず.</p>
+<ul>
+<li>インターネット回線: NTT西日本, プロバイダ: Yahoo!BB</li>
+<li>eo光</li>
+</ul>
+<h2 id="設定ファイルのひな形">設定ファイルのひな形</h2>
+<ul>
+<li><a href="https://gist.github.com/ravencoding/9861df06ca12642647a2" target="_blank" rel="external">gistに置いておきました</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>実際に動作確認がとれたのは次の通り. 他は試せていないのであしからず.</p>
+<ul>
+<li>インターネット回線: NTT西日本, プロバイダ: Yahoo!BB</li>
+<li>eo光</li>
+</ul>
+<h2 id="設定ファイルのひな形">設定ファイルのひな]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[大都会のエンジニアになって８ヶ月が経ちました]]></title>
+    <link href="http://ravencoding.github.io/2014/12/28/%E5%A4%A7%E9%83%BD%E4%BC%9A%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%EF%BC%98%E3%83%B6%E6%9C%88%E3%81%8C%E7%B5%8C%E3%81%A1%E3%81%BE%E3%81%97%E3%81%9F/"/>
+    <id>http://ravencoding.github.io/2014/12/28/大都会のエンジニアになって８ヶ月が経ちました/</id>
+    <published>2014-12-28T11:09:13.000Z</published>
+    <updated>2014-12-28T11:50:04.000Z</updated>
+    <content type="html"><![CDATA[<p>新卒で今年から大都会でエンジニアやってます。気がつけばもう８ヶ月経ってるとは…。<br>大阪で学生やってる時は勉強会にしょっちゅう参加してたんですが、大都会民になってからはずっと部屋に篭ってlinuxとかIX2015とか触って遊んでました。あとはSECCONとかISUCONとかプロコンやったりばっかりしてて、勉強会に参加するタイミングを逃しまくってました。<br>来年からはちょくちょく大都会の勉強会に参加しようと思っているので、見かけた方はよろしくお願いします(´・ω・｀)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>新卒で今年から大都会でエンジニアやってます。気がつけばもう８ヶ月経ってるとは…。<br>大阪で学生やってる時は勉強会にしょっちゅう参加してたんですが、大都会民になってからはずっと部屋に篭ってlinuxとかIX2015とか触って遊んでました。あとはSECCONとかISUCON]]>
+    </summary>
+    
+  </entry>
+  
+</feed>

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2014 | Hexo</title>
+  <title>Archives: 2014 | 本気は出さないけどがんばる(・ω・｀)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2014/">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:title" content="本気は出さないけどがんばる(・ω・｀)">
+<meta property="og:url" content="http://ravencoding.github.io/archives/2014/">
+<meta property="og:site_name" content="本気は出さないけどがんばる(・ω・｀)">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="本気は出さないけどがんばる(・ω・｀)">
 <meta name="twitter:description">
 
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="本気は出さないけどがんばる(・ω・｀)" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -35,7 +35,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">本気は出さないけどがんばる(・ω・｀)</a>
       </h1>
       
     </div>
@@ -55,7 +55,7 @@
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://yoursite.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://ravencoding.github.io"></form>
       </div>
     </div>
   </div>
@@ -63,10 +63,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-ブログフレームワークHEXOの使い方" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/12/28/hello-world/" class="article-date">
-  <time datetime="2014-12-28T10:17:26.000Z" itemprop="datePublished">Dec 28 2014</time>
+    <a href="/2014/12/29/ブログフレームワークHEXOの使い方/" class="article-date">
+  <time datetime="2014-12-28T16:12:37.000Z" itemprop="datePublished">Dec 29 2014</time>
 </a>
     
   </div>
@@ -77,7 +77,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/12/28/hello-world/">Hello World</a>
+      <a class="article-title" href="/2014/12/29/ブログフレームワークHEXOの使い方/">ブログフレームワークHEXOの使い方</a>
     </h1>
   
 
@@ -85,29 +85,100 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+        <p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
+<ul>
+<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
+</ul>
+<p>ルートディレクトリでgitリポジトリを作り、gitignoreにthemeを追加しておく.<br>別途themeフォルダで、Hexoのテーマのリポジトリをgit cloneする.<br><img src="img.jpg" alt="hoge"><br>テーマを切り替えたいときは、プロジェクトディレクトリ直下にある_config.ymlのthemeを希望のテーマ名に書き換える.<br>ちょっとハマったんですが、<br><strong>テーマを切り替えるときはhexo cleanを実行すること！</strong><br>でないとスタイルが崩れまくります.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/12/28/hello-world/" data-id="4wkgvq7iwmj5adsm" class="article-share-link">Share</a>
+      <a data-url="http://ravencoding.github.io/2014/12/29/ブログフレームワークHEXOの使い方/" data-id="rr1yoor6giy9a41z" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IX2015が使えたプロバイダ" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/12/28/IX2015が使えたプロバイダ/" class="article-date">
+  <time datetime="2014-12-28T11:55:59.000Z" itemprop="datePublished">Dec 28 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/12/28/IX2015が使えたプロバイダ/">IX2015が使えたプロバイダ</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>実際に動作確認がとれたのは次の通り. 他は試せていないのであしからず.</p>
+<ul>
+<li>インターネット回線: NTT西日本, プロバイダ: Yahoo!BB</li>
+<li>eo光</li>
+</ul>
+<h2 id="設定ファイルのひな形">設定ファイルのひな形</h2>
+<ul>
+<li><a href="https://gist.github.com/ravencoding/9861df06ca12642647a2" target="_blank" rel="external">gistに置いておきました</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ravencoding.github.io/2014/12/28/IX2015が使えたプロバイダ/" data-id="k86iiqvzhtmqx3jz" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-大都会のエンジニアになって８ヶ月が経ちました" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/12/28/大都会のエンジニアになって８ヶ月が経ちました/" class="article-date">
+  <time datetime="2014-12-28T11:09:13.000Z" itemprop="datePublished">Dec 28 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/12/28/大都会のエンジニアになって８ヶ月が経ちました/">大都会のエンジニアになって８ヶ月が経ちました</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>新卒で今年から大都会でエンジニアやってます。気がつけばもう８ヶ月経ってるとは…。<br>大阪で学生やってる時は勉強会にしょっちゅう参加してたんですが、大都会民になってからはずっと部屋に篭ってlinuxとかIX2015とか触って遊んでました。あとはSECCONとかISUCONとかプロコンやったりばっかりしてて、勉強会に参加するタイミングを逃しまくってました。<br>来年からはちょくちょく大都会の勉強会に参加しようと思っているので、見かけた方はよろしくお願いします(´・ω・｀)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ravencoding.github.io/2014/12/28/大都会のエンジニアになって８ヶ月が経ちました/" data-id="lf06h5jk2si1tg9v" class="article-share-link">Share</a>
       
       
     </footer>
@@ -132,7 +203,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -144,8 +215,15 @@
       <ul>
         
           <li>
-            <a href="/2014/12/28/hello-world/">Hello World</a>
+            <a href="/2014/12/29/ブログフレームワークHEXOの使い方/">ブログフレームワークHEXOの使い方</a>
           </li>
+        
+          <li>
+            <a href="/2014/12/28/IX2015が使えたプロバイダ/">IX2015が使えたプロバイダ</a>
+          </li>
+        
+          <li>
+            <a href="/2014/12/28/大都会のエンジニアになって８ヶ月が経ちました/">大都会のエンジニアになって８ヶ月が経ちました</a>
         
       </ul>
     </div>
@@ -159,7 +237,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2014 John Doe<br>
+      &copy; 2014 ravencoding<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
