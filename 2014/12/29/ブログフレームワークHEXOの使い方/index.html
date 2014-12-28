@@ -103,6 +103,13 @@
 <p>ルートディレクトリでgitリポジトリを作り、gitignoreにthemeを追加しておく.<br>別途themeフォルダで、Hexoのテーマのリポジトリをgit cloneする.<br><img src="../img/hexoProjectTree.jpg" alt="themeフォルダの位置"><br>テーマを切り替えたいときは、プロジェクトディレクトリ直下にある_config.ymlのthemeを希望のテーマ名に書き換える.<br>ちょっとハマったんですが、<br><strong>テーマを切り替えるときはhexo cleanを実行すること！</strong><br>でないとスタイルが崩れまくります.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 
+<h2 id="コミットについて">コミットについて</h2>
+<p>まだあまりHEXOを触ってないんですが、おそらくなのでメモ.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div></pre></td></tr></table></figure>
+
+<p>を実行すると、リモートリポジトリのgithub側でコミットも一緒にしてくれるので、<br>ローカルではgit commitを実行する必要はない. pullするだけで良いのだ.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div><div class="line">$ git pull</div></pre></td></tr></table></figure>
+
 
       
     </div>
