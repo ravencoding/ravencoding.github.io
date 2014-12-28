@@ -9,7 +9,7 @@ tags:
 
 ルートディレクトリでgitリポジトリを作り、gitignoreにthemeを追加しておく.
 別途themeフォルダで、Hexoのテーマのリポジトリをgit cloneする.
-![hoge](img.jpg)
+![tree](img/hexoProjectTree.jpg)
 テーマを切り替えたいときは、プロジェクトディレクトリ直下にある_config.ymlのthemeを希望のテーマ名に書き換える.
 ちょっとハマったんですが、
 **テーマを切り替えるときはhexo cleanを実行すること！**
