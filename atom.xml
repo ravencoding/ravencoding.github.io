@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://ravencoding.github.io/"/>
-  <updated>2014-12-28T17:42:38.951Z</updated>
+  <updated>2014-12-28T17:51:06.118Z</updated>
   <id>http://ravencoding.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://ravencoding.github.io/2014/12/29/%E3%83%96%E3%83%AD%E3%82%B0%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFHEXO%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/"/>
     <id>http://ravencoding.github.io/2014/12/29/ブログフレームワークHEXOの使い方/</id>
     <published>2014-12-28T16:12:37.000Z</published>
-    <updated>2014-12-28T17:42:04.000Z</updated>
+    <updated>2014-12-28T17:50:45.000Z</updated>
     <content type="html"><![CDATA[<p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
 <ul>
 <li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
@@ -35,6 +35,7 @@
 <p>を実行すると、リモートリポジトリのgithub側でコミットも一緒にしてくれるので、<br>ローカルではgit commitを実行する必要はない. pullするだけで良いのだ.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div><div class="line">$ git pull</div></pre></td></tr></table></figure>
 
+<p>じゃぁ下書きのやつはどこにコミットすりゃいいんだ!? と言われそうですが、パッと思いついたのはdevelopブランチとかにコミットすればいいんじゃないでしょうか？(developブランチのコミット見に行ったらもろバレですが…)</p>
 <hr>
 <h2 id="画像について-">画像について.</h2>
 <p>markdownで画像を挿入する場合は、</p>
