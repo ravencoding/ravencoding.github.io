@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://ravencoding.github.io/"/>
-  <updated>2014-12-28T18:07:02.672Z</updated>
+  <updated>2014-12-29T04:48:22.093Z</updated>
   <id>http://ravencoding.github.io/</id>
   
   <author>
@@ -19,11 +19,13 @@
     <link href="http://ravencoding.github.io/2014/12/29/%E3%83%96%E3%83%AD%E3%82%B0%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AFHEXO%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/"/>
     <id>http://ravencoding.github.io/2014/12/29/ブログフレームワークHEXOの使い方/</id>
     <published>2014-12-28T16:12:37.000Z</published>
-    <updated>2014-12-28T17:50:45.000Z</updated>
-    <content type="html"><![CDATA[<p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
+    <updated>2014-12-29T03:59:49.000Z</updated>
+    <content type="html"><![CDATA[<p>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
 <ul>
 <li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></li>
 </ul>
+<hr>
+<h2 id="テーマの切り替え方について">テーマの切り替え方について</h2>
 <p>ルートディレクトリでgitリポジトリを作り、gitignoreにthemeを追加しておく.<br>別途themeフォルダで、Hexoのテーマのリポジトリをgit cloneする.<br><img src="/2014/12/29/ブログフレームワークHEXOの使い方/hexoProjectTree.jpg" alt="themeフォルダの位置"><br>テーマを切り替えたいときは、プロジェクトディレクトリ直下にある_config.ymlのthemeを希望のテーマ名に書き換える.<br>ちょっとハマったんですが、<br><strong>テーマを切り替えるときはhexo cleanを実行すること！</strong><br>でないとスタイルが崩れまくります.</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 
@@ -45,9 +47,9 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>テーマの切り替え方についてメモ.<br>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
+    <![CDATA[<p>導入部分はこちらの記事がとてもよくまとまっているので、初めての方はLIGの記事を見ましょう.</p>
 <ul>
-<li><a href="http://liginc.co.jp/web/programming/server/10459]]>
+<li><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" r]]>
     </summary>
     
   </entry>
